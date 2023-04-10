@@ -1,0 +1,27 @@
+{
+  "name": "@osn/eslint-config",
+  "version": "0.0.0",
+  "repository": "https://github.com/2nthony/eslint-config",
+  "author": "OpenSquare <https://www.opensquare.network/>",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  },
+  "packageManager": "yarn@3.5.0"
+}
