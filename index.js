@@ -9,5 +9,11 @@ module.exports = {
       "error",
       { allowMultiplePropertiesPerLine: true },
     ],
+    "no-console": [
+      "error",
+      {
+        allow: ["info", "warn", "error"],
+      },
+    ],
   },
 };
